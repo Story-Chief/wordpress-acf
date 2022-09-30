@@ -39,6 +39,7 @@ class Storychief_ACF {
                         break;
 					case 'select':
 					case 'checkbox':
+					case 'relationship':		
 						$value = explode(',', $field['value']);
 						break;
 					default:
