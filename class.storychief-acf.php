@@ -42,6 +42,10 @@ class Storychief_ACF {
 					case 'relationship':
 						$value = explode( ',', $field['value'] );
 						break;
+					case 'taxonomy':
+						$slugs = explode(',', $field['value']);
+						$value = self::convertTaxonomySlugsToIds($field_definition, $slugs);
+						break;
 					default:
 						$value = $field['value'];
 						break;
@@ -108,6 +112,18 @@ class Storychief_ACF {
 
 	public static function remove_custom_field_mapping() {
 		delete_option( 'storychief_acf_mapping' );
+	}
+
+	private static function convertTaxonomySlugsToIds( $field_definition, $slugs ) {
+		$termIds = array();
+		foreach ( $slugs as $slug ) {
+			$term = get_term_by( 'slug', $slug, $field_definition['taxonomy'] );
+			if ( $term ) {
+				$termIds[] = $term->term_id;
+			}
+		}
+
+		return $termIds;
 	}
 
 }
