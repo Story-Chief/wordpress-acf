@@ -1,9 +1,10 @@
 === StoryChief ACF ===
 Contributors: storychief
 Tags: StoryChief, ACF, Advanced Custom Fields
-Requires at least: 4.6
-Tested up to: 6.7
-Stable tag: 1.0.6
+Requires at least: 5.2
+Tested up to: 7.0
+Requires PHP: 7.0
+Stable tag: 1.0.7
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -16,7 +17,7 @@ This plugin requires the main plugin [StoryChief](https://wordpress.org/plugins/
 
 == Requirements ==
 
-* WordPress 4.6 or higher
+* WordPress 5.2 or higher
 * [StoryChief](https://wordpress.org/plugins/story-chief)
 
 == Installation ==
@@ -30,6 +31,9 @@ This plugin requires the main plugin [StoryChief](https://wordpress.org/plugins/
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.7 =
+* improvement: tested up to WP 7.0
 
 = 1.0.6 =
 * improvement: tested up to WP 6.7
