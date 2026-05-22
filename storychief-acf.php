@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Story Chief ACF
  * Plugin URI: https://storychief.io/wordpress-acf
- * Description: This plugin lets Storychief and ACF work together .
- * Version: 1.0.7
+ * Description: This plugin lets Storychief and ACF work together.
+ * Version: 1.0.8
  * Author: Gregory Claeyssens
  * Author URI: http://storychief.io
  * License: GPL2
@@ -15,7 +15,7 @@ if ( ! function_exists( 'add_action' ) ) {
 	exit;
 }
 
-define( 'STORYCHIEF_ACF_VERSION', '1.0.7' );
+define( 'STORYCHIEF_ACF_VERSION', '1.0.8' );
 define( 'STORYCHIEF_ACF__MINIMUM_WP_VERSION', '5.2' );
 define( 'STORYCHIEF_ACF__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'STORYCHIEF_ACF__PLUGIN_BASE_NAME', plugin_basename( __FILE__ ) );

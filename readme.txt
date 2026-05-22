@@ -4,7 +4,7 @@ Tags: StoryChief, ACF, Advanced Custom Fields
 Requires at least: 5.2
 Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,7 +32,7 @@ This plugin requires the main plugin [StoryChief](https://wordpress.org/plugins/
 
 == Changelog ==
 
-= 1.0.7 =
+= 1.0.8 =
 * improvement: tested up to WP 7.0
 
 = 1.0.6 =
